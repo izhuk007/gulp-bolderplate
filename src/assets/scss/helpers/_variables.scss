@@ -1,0 +1,33 @@
+$fz_base: 16;
+$fz: $fz_base;
+// ##########
+// Базовые настройки сетки сайта
+// ##########
+$container-width: 1280; // Максимальная ширина контейнера контента
+$container-padding: 10; // Отступы слева и справа у контейнера
+$breakpoints: (
+        'xl': 1920px,
+        'lg': 1280px,
+        'md': 1024px,
+        'sm': 768px,
+        'xs': 480px,
+);
+
+// ##########
+// Цвета
+// ##########
+$color-basic: black; // Основной цвет текста (применяется к body)
+$color-placeholder: #777; // Основной цвет для placeholder
+$color-input: black; // Основной цвет input, select и textarea
+$color-main: #2252d8; // Основной фирменный цвет
+$color-border: #ccc; // Основной цвет границ таблиц, секций
+
+// ##########
+// Transitions
+// ##########
+$ease-main: 0.2s ease;
+
+// ##########
+// Шрифты
+// ##########
+$font: Arial, sans-serif;
